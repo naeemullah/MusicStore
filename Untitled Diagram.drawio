@@ -1,5 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2020-10-02T09:13:50.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="ljJbXAOP-Lex2iz7x-Ou" version="13.7.7" type="github">
-  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2020-10-02T09:39:48.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="nuz9GDM7hNESrBxJHaHU" version="13.7.7" type="github" pages="3">
+  <diagram id="G9oTQ7vHhRD2ITS2tRDp" name="Solution Design">
+    <mxGraphModel dx="718" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="UlLq-ZedSZ8UGGf_ch-f-0" />
+        <mxCell id="UlLq-ZedSZ8UGGf_ch-f-1" parent="UlLq-ZedSZ8UGGf_ch-f-0" />
+        <object label="" id="GdADQ5_VZ0J79-_KYSUi-8">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.033;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="UlLq-ZedSZ8UGGf_ch-f-1" source="GdADQ5_VZ0J79-_KYSUi-1" target="GdADQ5_VZ0J79-_KYSUi-6">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Actor" id="GdADQ5_VZ0J79-_KYSUi-1">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="UlLq-ZedSZ8UGGf_ch-f-1">
+            <mxGeometry x="120" y="280" width="30" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="GdADQ5_VZ0J79-_KYSUi-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="UlLq-ZedSZ8UGGf_ch-f-1" source="GdADQ5_VZ0J79-_KYSUi-6" target="GdADQ5_VZ0J79-_KYSUi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdADQ5_VZ0J79-_KYSUi-6" value="HealthStats&lt;br&gt;Admin UI" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="UlLq-ZedSZ8UGGf_ch-f-1">
+          <mxGeometry x="260" y="290" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GdADQ5_VZ0J79-_KYSUi-9" value="Cache Store" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="UlLq-ZedSZ8UGGf_ch-f-1">
+          <mxGeometry x="400" y="400" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GdADQ5_VZ0J79-_KYSUi-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="UlLq-ZedSZ8UGGf_ch-f-1" source="GdADQ5_VZ0J79-_KYSUi-10" target="GdADQ5_VZ0J79-_KYSUi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdADQ5_VZ0J79-_KYSUi-10" value="ApiTagging" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="UlLq-ZedSZ8UGGf_ch-f-1">
+          <mxGeometry x="405" y="290" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="T37PuJqof_AhERCi0RsR" name="Components">
+    <mxGraphModel dx="718" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="Zcdf3QMCNOs8m3dDSxB5-0" />
+        <mxCell id="Zcdf3QMCNOs8m3dDSxB5-1" parent="Zcdf3QMCNOs8m3dDSxB5-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence">
     <mxGraphModel dx="718" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
